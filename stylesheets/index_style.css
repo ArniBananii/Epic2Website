@@ -1,0 +1,130 @@
+/* .landingPage really necessary? */
+.landingPage {
+  position: absolute;
+  width: 1440px;
+  height: 1999px;
+  overflow-x: hidden;
+}
+
+.backround_yellow {
+  position: absolute;
+
+  width: 1440px;
+  height: 532px;
+  top: -10px;
+  left: 160px;
+  background: #fdfd96;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.grey_rectangle {
+  position: absolute;
+  width: 700px;
+  height: 94px;
+  left: 158px;
+  top: 72px;
+  opacity: 0.65;
+  background: #e2dada;
+}
+
+h1 {
+  position: relative;
+  font-family: RockNROLL;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  left: 518px;
+  color: #590a0a;
+}
+
+.buffie_Img {
+  position: relative;
+  width: 532px;
+  height: 1280;
+  left: 647px;
+  top: 294px;
+  z-index: 1;
+}
+.footer_image_container {
+  position: relative;
+  width: 1440px;
+  height: 500px;
+  top: 400px;
+}
+
+.footer_Img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 150px;
+}
+/* link selectors and classes */
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  cursor: pointer;
+  background-color: rgb(0, 119, 128);
+}
+a:active {
+  text-decoration: none;
+}
+.font-Links {
+  font-family: ComicSans;
+}
+
+.link_container {
+  position: relative;
+
+  top: -296px;
+  left: 1223px;
+}
+.link_home {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+}
+.link_reg {
+  position: absolute;
+  left: 64px;
+  top: 1px;
+  width: 40px;
+  height: 22px;
+}
+.link_cont {
+  position: absolute;
+  left: 130px;
+  top: 1px;
+  width: 40px;
+  height: 22px;
+}
+.link_table {
+  position: absolute;
+  left: 200px;
+  top: 1px;
+  width: 40px;
+  height: 22px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: aqua;
+}
+/* font implementations */
+@font-face {
+  font-family: RockNRoll;
+  src: url(/CodeAkademyProjects/Epic2Website/stylesheets/Fonts/RocknRoll_One/RocknRollOne-Regular.ttf);
+}
+@font-face {
+  font-family: ComicSans;
+  src: url(/CodeAkademyProjects/Epic2Website/stylesheets/Fonts/Comic_Neue/ComicNeue-Regular.ttf);
+}

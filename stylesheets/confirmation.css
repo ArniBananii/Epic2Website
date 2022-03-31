@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  background: linear-gradient(to top left, #2898b4, #7dd56f);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.input_display {
+  display: flex;
+  justify-content: center;
+}
+.table_style {
+  width: 200px;
+  border: 4px solid #7dd56f;
+  background-color: aqua;
+}
+
+.button {
+  position: absolute;
+  width: 593px;
+  height: 102px;
+  left: 388px;
+  top: 390px;
+  background: #ffee93;
+  border-radius: 58px;
+}

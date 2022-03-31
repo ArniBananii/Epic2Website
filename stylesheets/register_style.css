@@ -1,0 +1,251 @@
+.landingPage {
+  position: static;
+  width: 1440px;
+  height: 1999px;
+  overflow-x: hidden;
+}
+
+.backround_purple {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  margin-top: 0;
+  background: #fbd3ff;
+}
+
+/* Star element and properties  */
+.star_element {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.star_text {
+  position: absolute;
+  top: 133px;
+  left: 343px;
+
+  font-size: 36px;
+  color: black;
+}
+
+#star-five {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffffd1;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+#star-five:before {
+  border-bottom: 80px solid #ffffd1;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -47px;
+  left: -62px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: yellow;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffffd1;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+
+/* inputs */
+.cardNumber_input {
+  position: absolute;
+  display: flex;
+  width: 358px;
+  height: 48px;
+  left: 47px;
+  top: 419px;
+
+  background: #c4c4c4;
+}
+.cardExpire_input {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 358px;
+  height: 48px;
+  left: 478px;
+  top: 375px;
+
+  background: #c4c4c4;
+}
+.cardSecurity_input {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 358px;
+  height: 48px;
+  left: 906px;
+  top: 443px;
+
+  background: #c4c4c4;
+}
+
+.boxes_input {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  top: 615px;
+}
+.boxRadio_input {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 242px;
+  height: 215px;
+  left: 41px;
+  background: #ff968a;
+}
+.boxCheckbox_input {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 242px;
+  height: 215px;
+  left: 506px;
+  top: -35px;
+
+  background: #a0ced9;
+}
+.boxSelect_input {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 242px;
+  height: 215px;
+  left: 981px;
+
+  background: #ff968a;
+}
+.select_input {
+  display: flex;
+}
+
+.boxSubmit_button {
+  position: absolute;
+  width: 593px;
+  height: 102px;
+  left: 388px;
+  top: 390px;
+  background: #ffee93;
+  border-radius: 58px;
+}
+.submit_button {
+  position: absolute;
+  width: 593px;
+  height: 102px;
+
+  border-radius: 58px;
+  background: #ffee93;
+  border-color: #a0ced9;
+}
+.box_terms {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  left: 712px;
+  top: 403px;
+  background: white;
+}
+.terms {
+  font-size: 4px;
+}
+
+.footer_image_container {
+  position: relative;
+  width: 1440px;
+  height: 500px;
+  top: 1100px;
+}
+
+.footer_Img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* link selectors and classes  */
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  cursor: pointer;
+  background-color: rgb(0, 119, 128);
+}
+a:active {
+  text-decoration: none;
+}
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: aqua;
+}
+
+.font-Links {
+  font-family: ComicSans;
+}
+
+.link_container {
+  position: relative;
+
+  top: -296px;
+  left: 1043px;
+}
+.link_home {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+}
+.link_reg {
+  position: absolute;
+  left: 64px;
+  top: 1px;
+  width: 40px;
+  height: 22px;
+}
+.link_cont {
+  position: absolute;
+  left: 130px;
+  top: 1px;
+  width: 40px;
+  height: 22px;
+}
+.link_table {
+  position: absolute;
+  left: 200px;
+  top: 1px;
+  width: 40px;
+  height: 22px;
+}

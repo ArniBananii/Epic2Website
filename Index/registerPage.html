@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/register_style.css" />
+    <link rel="Epic2Website" href="/submit_button.js" />
+
+    <title>RegisterPage</title>
+  </head>
+  <body class="landingPage">
+    <div class="backround_purple">
+      <div class="star_element" id="star-five"></div>
+      <div class="star_text">
+        <p>Become A Member!</p>
+      </div>
+
+      <div class="card_inputs">
+        <div class="cardNumber_input">
+          <form class="userInputs">
+            <label for="cnumber">Creditcard Number:</label><br />
+            <input type="number" value="" />
+          </form>
+        </div>
+        <div class="cardExpire_input">
+          <form class="userInputs">
+            <label for="cexpire">Expire Date:</label><br />
+            <input type="number" value="" />
+          </form>
+        </div>
+        <div class="cardSecurity_input">
+          <form class="userInputs">
+            <label for="csecure">Security Code:</label><br />
+            <input type="number" value="" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="boxes_input">
+      <!-- <!radiobox  > -->
+      <div class="boxRadio_input">
+        <form onchange="genderInput(event)">
+          <input type="radio" class="male" name="gender" value="Male" />
+          <label for="male">Male</label><br />
+          <input type="radio" class="female" name="gender" value="Female" />
+          <label for="female">Female</label><br />
+          <input
+            type="radio"
+            class="non-binary"
+            name="gender"
+            value="Non-Binary"
+          />
+          <label for="non-binary">Non-Binary</label>
+        </form>
+      </div>
+      <!-- <!checkbox  > -->
+      <div class="boxCheckbox_input">
+        <form>
+          <input type="checkbox" name="animal_dog" id="dog" value="Dog" />
+          <label for="animal_dog">Dog</label><br />
+          <input type="checkbox" name="animal_cat" id="cat" value="Cat" />
+          <label for="animal_cat">Cat</label><br />
+          <input type="checkbox" name="animal_yes" id="yes" value="Yes" />
+          <label for="animal_yes">Yes,please!</label><br />
+        </form>
+      </div>
+      <!-- <!selectbox  > -->
+      <div class="boxSelect_input">
+        <div class="select_input">
+          <form>
+            <label for="answer">I love:</label>
+            <select name="answer" id="answer">
+              <option value="rm">RM</option>
+              <option value="jin">Jin</option>
+              <option value="suga">SUGA</option>
+              <option value="j-hope">j-hope</option>
+              <option value="jimin">Jimin</option>
+              <option value="v">V</option>
+              <option value="jung">JungKook</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <!button >
+      <div class="boxSubmit_button">
+        <button
+          type="submit"
+          class="submit_button"
+          onclick="genderInput(event);"
+        >
+          Lets GO!
+        </button>
+      </div>
+    </div>
+
+    <div class="footer_image_container">
+      <img class="footer_Img" src="/Images/imageFooter2.png" alt="dafuq" />
+      <div class="link_container">
+        <div class="link_home">
+          <a href="index.html">Home</a>
+          <div class="link_reg disabled">
+            <a href="registerPage.html">Register</a>
+          </div>
+          <div class="link_cont">
+            <a href="contactPage.html">Contact</a>
+          </div>
+          <div class="link_table">
+            <a href="tablePage.html">Table</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="box_terms">
+        <div class="terms">
+          <ul>
+            <p>Terms and conditions</p>
+            <li>by submiting you data you loese all rights to sue me</li>
+            <li>till the end of the oberservable universe</li>
+            <ul>
+              <li>should have read the ToS</li>
+              <li>welp sucks to be you</li>
+            </ul>
+            <li>it do be like that....</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="/JS/submit_button.js"></script>
+  </body>
+</html>

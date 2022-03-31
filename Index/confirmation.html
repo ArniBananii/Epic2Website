@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/confirmation.css" />
+    <title>Confirmation</title>
+  </head>
+  <body>
+    <div>
+      <h1>Thanks for your information sucker! &#128405;</h1>
+    </div>
+
+    <! table with inputs displayed >
+    <div class="input_display">
+      <table class="table_style">
+        <tr>
+          <th>Information</th>
+          <th>Input</th>
+        </tr>
+        <tr>
+          <th>BTS member</th>
+          <th id="result"></th>
+        </tr>
+        <tr>
+          <th>test</th>
+          <th id="result2"></th>
+        </tr>
+      </table>
+      <div>
+        <button
+          type="button"
+          class="submit_button"
+          onclick="location.replace('index.html')"
+        >
+          go back
+        </button>
+      </div>
+    </div>
+    <script>
+      document.getElementById("result").innerHTML =
+        localStorage.getItem("data");
+      /* lower line of code needs more testing. 
+           document.getElementById("result2").innerHTML =
+           localStorage.getItem("data2"); */
+    </script>
+  </body>
+</html>
